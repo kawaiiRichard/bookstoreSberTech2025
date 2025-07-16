@@ -1,12 +1,17 @@
 import styles from "./PlacingAnOrderWindow.module.css";
 import Button from "../Button/Button";
 import Input from "../Input/Input";
+
+import { useContext } from "react";
 import { useNavigate } from "react-router-dom";
+import { CartContext } from "../../context/CartContext";
 
 function PlacingAnOrderWindow() {
   const navigate = useNavigate();
+  const { clearCart } = useContext(CartContext);
 
   const handleClick = () => {
+    clearCart();
     console.log("Симуляция оплаты");
     navigate("/");
   };
