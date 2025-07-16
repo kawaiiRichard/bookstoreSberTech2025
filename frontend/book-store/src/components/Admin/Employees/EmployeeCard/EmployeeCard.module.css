@@ -1,0 +1,19 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: space;
+  gap: 10px;
+  border: 1px solid #bdbdbd;
+  border-radius: 3px;
+  padding: 5px;
+  width: 800px;
+  min-height: 50px;
+  height: 100%;
+  background: #fff;
+}
+
+.text {
+  font-size: 18px;
+  color: #111;
+}

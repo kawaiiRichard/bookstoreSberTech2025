@@ -1,0 +1,151 @@
+.container {
+  height: 460px;
+  width: 200px;
+  background: #f5f5f5;
+  color: #333;
+  border-radius: 10px;
+  padding: 10px;
+  gap: 10px;
+  position: relative;
+  transition: 0.5s;
+  transform-origin: center center;
+  margin: 10px 10px 10px 10px;
+  box-shadow: 0 0 8px rgba(121, 121, 121, 0.5);
+}
+
+.container:hover {
+  box-shadow: 0 0 8px rgba(121, 121, 121, 0.5);
+  transform: scale(1.05);
+}
+
+.container:has(.overlay-out-of-stock):hover {
+  transform: none !important;
+  box-shadow: none !important;
+}
+
+.btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.book-img {
+  width: 200px;
+  border-bottom: #333 1px solid;
+  cursor: pointer;
+  min-height: 330px;
+}
+
+.book-title {
+  font-size: 18px;
+  font-weight: 600;
+  transition: 0.5s;
+  cursor: pointer;
+  color: #333;
+}
+
+.book-title:hover {
+  color: red;
+}
+
+.book-author {
+  font-size: 15px;
+  color: grey;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.book-author:hover {
+  color: #333;
+}
+
+.price {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.book-price {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.old {
+  position: relative;
+  text-decoration: none;
+  color: #888;
+}
+
+.old:before {
+  content: "";
+  border-bottom: 1px solid red;
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  transform: rotate(-12deg);
+}
+
+.book-text {
+  justify-content: left;
+  text-align: left;
+  overflow: hidden;
+  white-space: nowrap;
+  font-weight: 600;
+}
+
+.fav-bc {
+  width: 40px;
+  height: 40px;
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.fav-bc:hover {
+  opacity: 0.8;
+}
+
+.quantity {
+  font-size: 15px;
+  color: #fff;
+  padding: 1px;
+  border-radius: 5px;
+  z-index: 1000;
+  position: absolute;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  padding: 1px 3px 1px 3px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-weight: 600;
+}
+
+.low {
+  background: rgb(243, 35, 35);
+}
+
+.overlay-out-of-stock {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 10px;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay-out-of-stock-text {
+  color: #333;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  padding: 10px;
+}

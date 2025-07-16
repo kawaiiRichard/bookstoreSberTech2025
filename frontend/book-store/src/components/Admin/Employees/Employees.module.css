@@ -1,0 +1,84 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 1px solid #bdbdbd;
+  padding: 20px;
+}
+
+.link {
+  font-size: 20px;
+  background: #fff;
+  border: 1px solid #bdbdbd;
+  border-radius: 3px;
+  padding: 5px 10px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.link:hover {
+  background: #e0e0e0;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 20px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  background: #fff;
+  border: 1px solid #bdbdbd;
+  border-radius: 4px;
+  color: #222;
+  font-size: 15px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #e2e2e2;
+}
+
+.employee {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 20px;
+  border: 1px solid #bdbdbd;
+  border-radius: 3px;
+}
+
+.add-employee {
+  font-size: 24px;
+  border: none;
+  padding: 10px;
+  border-radius: 3px;
+  background: #e2e2e2;
+  transition: 0.1s;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.add-employee:hover {
+  background: #c9c9c9;
+}
+
+.btns {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}

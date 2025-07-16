@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 1px solid #bdbdbd;
+  padding: 20px;
+}
+
+.link {
+  font-size: 20px;
+  background: #fff;
+  border: 1px solid #bdbdbd;
+  border-radius: 3px;
+  padding: 5px 10px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.link:hover {
+  background: #e0e0e0;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.client {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}

@@ -1,0 +1,21 @@
+.advertising {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid #bdbdbd;
+  border-radius: 3px;
+  padding: 10px 30px;
+}
+
+.text {
+  font-size: 20px;
+  color: rgb(43, 43, 43);
+  display: flex;
+  flex-direction: row;
+}
+
+.img {
+  height: 200px;
+}

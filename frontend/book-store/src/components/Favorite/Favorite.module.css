@@ -1,0 +1,15 @@
+.favorite {
+  padding: 20px;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(186px, 1fr));
+  width: 50%;
+}
+
+.title {
+  font-size: 30px;
+  margin: 10px;
+  color: #111;
+  font-weight: 600;
+  width: 850px;
+}

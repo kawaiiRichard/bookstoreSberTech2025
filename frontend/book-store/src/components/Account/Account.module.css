@@ -1,0 +1,10 @@
+.link {
+  color: #333;
+  font-size: 26px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.link:hover {
+  color: rgb(241, 65, 65);
+}

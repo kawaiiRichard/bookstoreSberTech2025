@@ -1,0 +1,145 @@
+.buy-window {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1px;
+  background: #e0e0e0;
+  padding: 1px;
+  box-shadow: 0px 1px 3px 0px rgba(121, 121, 121, 0.5);
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d3d3d3;
+  font-size: 16px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s;
+  user-select: none;
+}
+
+.button:hover {
+  background-color: rgb(189, 189, 189);
+}
+
+.header,
+.main,
+.footer {
+  padding: 10px;
+  width: 330px;
+  background: #fff;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.promo {
+  margin-left: 10px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.incorrect {
+  color: rgb(235, 69, 69);
+}
+
+.correct {
+  color: rgb(65, 209, 36);
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.text,
+.discount-text {
+  font-size: 19px;
+  margin: 10px;
+}
+
+.text {
+  font-size: 19px;
+  color: #444;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.discount-text {
+  font-size: 19px;
+  color: rgb(235, 69, 69);
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  border: none;
+  outline: none;
+
+  border-radius: 5px;
+
+  padding: 10px 15px;
+
+  background-color: #f5f5f5;
+  color: #333;
+
+  font-family: inherit;
+  font-size: 16px;
+
+  cursor: pointer;
+
+  transition: all 0.3s ease;
+
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+  width: 230px;
+  margin: 10px 0;
+}
+
+.select:hover {
+  background-color: #e0e0e0;
+}
+
+.select:focus {
+  box-shadow: 0 0 0 2px rgba(0, 120, 212, 0.3);
+}
+
+.select-wrapper {
+  position: relative;
+}
+
+.select-wrapper::after {
+  content: "▼";
+  font-size: 12px;
+  color: #666;
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+}

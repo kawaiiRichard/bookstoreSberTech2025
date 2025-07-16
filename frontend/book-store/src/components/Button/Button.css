@@ -1,0 +1,116 @@
+.btn {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+}
+
+.fav {
+  width: 40px;
+  height: 40px;
+  background-color: #f1f1f1;
+  border: solid #9c9c9c 2px;
+  border-radius: 5px;
+}
+
+.buy {
+  font-size: 20px;
+  min-width: 150px;
+  min-height: 40px;
+  background-color: rgb(50, 98, 167);
+  border-radius: 5px;
+  color: #f5f5f5;
+  transition: 0.5s;
+  margin: 5px;
+}
+
+.buy:hover {
+  background-color: rgb(41, 76, 151);
+}
+
+.pre-order {
+  font-size: 20px;
+  width: 150px;
+  height: 40px;
+  background-color: #f02828;
+  border-radius: 10px;
+  color: #f5f5f5;
+  transition: 1s;
+}
+
+.pre-order:hover {
+  background-color: #c42323;
+}
+
+.clear {
+  width: 100px;
+  font-size: 15px;
+  border-radius: 5px;
+  background: #fff;
+  border: 1px solid #d6d6d6;
+  transition: 0.5s;
+}
+
+.clear:hover {
+  background: #f1f1f1;
+}
+
+.count-left,
+.count-right {
+  width: 30px;
+  height: 30px;
+  background: #fff;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.count-left:hover {
+  background: #f1f1f1;
+}
+.count-right:hover {
+  background: #f1f1f1;
+}
+
+.count-left {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.count-right {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.in {
+  font-size: 16px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #fff;
+  border: 1px solid rgb(184, 184, 184);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.in:hover {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.1);
+}
+
+.in-cart {
+  font-size: 20px;
+  min-width: 150px;
+  min-height: 40px;
+  background-color: #09885f;
+  border-radius: 5px;
+  color: #f5f5f5;
+  transition: 0.5s;
+  margin: 5px;
+}
+
+.in-cart:hover {
+  background-color: #077c57;
+}
