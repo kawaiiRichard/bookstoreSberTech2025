@@ -2,7 +2,7 @@ import styles from "./Login.module.css";
 import Input from "../Input/Input";
 import Button from "../Button/Button";
 import { useState, useContext } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 import { UserContext } from "../../context/UserContext";
 import axios from "axios";
 
@@ -120,6 +120,14 @@ function Login() {
           <Button style={"buy"} type={"submit"}>
             Войти
           </Button>
+
+          <div className={styles["link-to"]}>
+            <div className="">Нет аккаунта?</div>
+
+            <div className={styles.link}>
+              <Link to="/register">Создать</Link>
+            </div>
+          </div>
         </form>
       </div>
     </div>

@@ -57,3 +57,14 @@
   margin-top: 5px;
   font-size: 14px;
 }
+
+.link-to {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.link {
+  color: rgb(29, 160, 248);
+}

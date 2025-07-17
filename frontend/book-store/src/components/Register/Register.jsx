@@ -2,7 +2,7 @@ import styles from "./Register.module.css";
 import Input from "../Input/Input";
 import Button from "../Button/Button";
 import { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 import axios from "axios";
 
 function Register() {
@@ -141,6 +141,14 @@ function Register() {
           <Button style={"buy"} type={"submit"}>
             Зарегистрироваться
           </Button>
+
+          <div className={styles["link-to"]}>
+            <div className="">Есть аккаунт?</div>
+
+            <div className={styles.link}>
+              <Link to="/login">Войти</Link>
+            </div>
+          </div>
         </form>
       </div>
     </div>
